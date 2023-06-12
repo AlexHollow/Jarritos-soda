@@ -1,0 +1,11 @@
+.page {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 320px;
+  height: 100vh;
+  font-family: 'Inter';
+  font-weight: normal;
+  box-shadow: -15px 0px 10px -5px rgba(153, 96, 246, 0.4),
+  15px 0px 10px -5px rgba(153, 96, 246, 0.4);
+}

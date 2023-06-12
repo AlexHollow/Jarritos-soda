@@ -1,0 +1,20 @@
+.button {
+  width: 163px;
+  height: 55px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  border: 0;
+  transition: .05s linear;
+  cursor: pointer;
+
+    &:hover {
+      border: 2px solid #1E3264;
+      border-radius: 10px;
+    }
+
+    &:active {
+      transform: scale(.98);
+    }
+}

@@ -1,0 +1,24 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+
+@import '../scss/variables.scss';
+
+@import '../blocks/rotation/rotation.scss';
+@import '../blocks/flicker/flicker.scss';
+
+@import '../blocks/page/page.scss';
+@import '../blocks/page/__header/page__header.scss';
+@import '../blocks/page/__title/page__title.scss';
+
+@import '../blocks/button/button.scss';
+@import '../blocks/button/_type/_header/button_type_header.scss';
+
+@import '../blocks/header/header.scss';
+@import '../blocks/header/__circle/header__circle.scss';
+@import '../blocks/header/__inner-circle/header__inner-circle.scss';
+@import '../blocks/header/__image/header__image.scss';
+@import '../blocks/header/__figure/header__figure.scss';
+@import '../blocks/header/__info/header__info.scss';
+@import '../blocks/header/__title/header__title.scss';
+
+

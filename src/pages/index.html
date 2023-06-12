@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jarritos-soda</title>
   <link rel="shortcut icon" href="<%=require('../images/JarritosLogo.png')%>" type="image/x-icon">
 </head>
-<body>
-  
+<body class="page">
+
+  <header class="header page__header">
+    <h2 class="page__title">Soda</h2>
+    <img src="<%=require('../images/MadeOnEarth.svg')%>" alt="Лого 'Сделано на Земле'" class="header__inner-circle rotation">
+    <div class="header__circle"></div>
+    <div class="header__image">
+      <img src="<%=require('../images/Pineapple.svg')%>" alt="Фигура 'Ананас'" class="header__figure flicker">
+    </div>
+    <div class="header__info">
+      <h1 class="header__title">Вкусные лимонады из&nbsp;фруктов</h1>
+      <button class="button button_type_header">Подробнее</button>
+    </div>
+  </header>
+
 </body>
 </html>
