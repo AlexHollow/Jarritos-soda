@@ -1,0 +1,13 @@
+@keyframes roll {
+  from {
+    transform: translateX(-105%);
+  }
+
+  to {
+    transform: translateX(80%);
+  }
+}
+
+.roll {
+  animation: roll 15s linear infinite;
+}

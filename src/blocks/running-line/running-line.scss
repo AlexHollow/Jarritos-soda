@@ -1,0 +1,10 @@
+.running-line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 76px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: $fourth-bg-color;
+}
