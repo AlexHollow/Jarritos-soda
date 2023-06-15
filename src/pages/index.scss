@@ -1,18 +1,22 @@
+//Вендорные стили
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 
+//Переменные
 @import '../scss/variables.scss';
 
+//Анимации
 @import '../blocks/rotation/rotation.scss';
 @import '../blocks/flicker/flicker.scss';
 @import '../blocks/roll/roll.scss';
 
+//Блоки, элементы и модификаторы
 @import '../blocks/page/page.scss';
 @import '../blocks/page/__header/page__header.scss';
 @import '../blocks/page/__title/page__title.scss';
 
 @import '../blocks/button/button.scss';
-@import '../blocks/button/_type/_header/button_type_header.scss';
+@import '../blocks/button/_type/_first/button_type_first.scss';
 
 @import '../blocks/header/header.scss';
 @import '../blocks/header/__circle/header__circle.scss';
@@ -24,3 +28,22 @@
 
 @import '../blocks/running-line/running-line.scss';
 @import '../blocks/running-line/__text/running-line__text.scss';
+
+@import '../blocks/content/__first-section/content__first-section.scss';
+
+@import '../blocks/first-section/__title/first-section__title.scss';
+
+@import '../blocks/card/card.scss';
+@import '../blocks/card/_type/_taste/card_type_taste.scss';
+@import '../blocks/card/_type/_comp/card_type_comp.scss';
+@import '../blocks/card/__info/card__info.scss';
+@import '../blocks/card/__title/card__title.scss';
+@import '../blocks/card/__text/card__text.scss';
+@import '../blocks/card/__image/card__image.scss';
+@import '../blocks/card/__circles/card__circles.scss';
+@import '../blocks/card/__circle/card__circle.scss';
+@import '../blocks/card/__circle/_type/_large/card__circle_type_large.scss';
+@import '../blocks/card/__circle/_type/_small/card__circle_type_small.scss';
+@import '../blocks/card/__list/card__list.scss';
+@import '../blocks/card/__list-item/card__list-item.scss';
+@import '../blocks/card/__link/card__link.scss';
