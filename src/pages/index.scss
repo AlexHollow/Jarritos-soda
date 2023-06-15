@@ -30,6 +30,7 @@
 @import '../blocks/running-line/__text/running-line__text.scss';
 
 @import '../blocks/content/__first-section/content__first-section.scss';
+@import '../blocks/content/__second-section/content__second-section.scss';
 
 @import '../blocks/first-section/__title/first-section__title.scss';
 
@@ -47,3 +48,8 @@
 @import '../blocks/card/__list/card__list.scss';
 @import '../blocks/card/__list-item/card__list-item.scss';
 @import '../blocks/card/__link/card__link.scss';
+
+@import '../blocks/second-section/second-section.scss';
+@import '../blocks/second-section/__title/second-section__title.scss';
+@import '../blocks/second-section/__image/second-section__image.scss';
+@import '../blocks/second-section/__figure/secon-section__figure.scss';
