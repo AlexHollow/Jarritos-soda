@@ -1,0 +1,8 @@
+.button_type_second {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(162, 123, 255, 1);
+    
+    &:hover {
+      border: 2px solid #e1fd2c;
+    }
+}

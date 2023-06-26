@@ -29,7 +29,6 @@
   </div>
 
   <main class="content">
-
     <section class="first-section content__first-section">
       <h2 class="first-section__title">Как это работает?</h2>
       <div class="card card_type_taste">
@@ -66,6 +65,34 @@
       </div>
     </section>
 
+    <section class="form-section content__form-section">
+      <div class="form-section__info">
+        <h2 class="form-section__title">Семплы</h2>
+        <p class="form-section__text">Хотите получить семплы каждого вкуса, чтобы понять что нравится вам? заполните форму!
+        </p>
+      </div>
+      <form action="#" method="get" class="form" novalidate>
+        <h3 class="form__title">Семплы</h3>
+        <fieldset class="form__fieldset">
+          <div class="input">
+            <label class="input__label" for="name">Имя *</label>
+            <input type="text" class="input__field" name="name" required>
+            <span class="input__error">Заполните поле *</span>
+          </div>
+          <div class="input">
+            <label class="input__label" for="surname">Фамилия *</label>
+            <input type="text" class="input__field" name="surname" required>
+            <span class="input__error">Заполните поле *</span>
+          </div>
+          <div class="input input_type_grid-step">
+            <label class="input__label" for="email">Email *</label>
+            <input type="text" class="input__field" name="email" required>
+            <span class="input__error">Заполните поле *</span>
+          </div>
+        </fieldset>
+        <button class="button button_type_second">Запросить</button>
+      </form>
+    </section>
   </main>
 
 </body>

@@ -15,8 +15,11 @@
 @import '../blocks/page/__header/page__header.scss';
 @import '../blocks/page/__title/page__title.scss';
 
+
 @import '../blocks/button/button.scss';
 @import '../blocks/button/_type/_first/button_type_first.scss';
+@import '../blocks/button/_type/_second/button_type_second.scss';
+
 
 @import '../blocks/header/header.scss';
 @import '../blocks/header/__circle/header__circle.scss';
@@ -26,13 +29,18 @@
 @import '../blocks/header/__info/header__info.scss';
 @import '../blocks/header/__title/header__title.scss';
 
+
 @import '../blocks/running-line/running-line.scss';
 @import '../blocks/running-line/__text/running-line__text.scss';
 
+
 @import '../blocks/content/__first-section/content__first-section.scss';
 @import '../blocks/content/__second-section/content__second-section.scss';
+@import '../blocks/content/__form-section/content__form-section.scss';
+
 
 @import '../blocks/first-section/__title/first-section__title.scss';
+
 
 @import '../blocks/card/card.scss';
 @import '../blocks/card/_type/_taste/card_type_taste.scss';
@@ -49,7 +57,26 @@
 @import '../blocks/card/__list-item/card__list-item.scss';
 @import '../blocks/card/__link/card__link.scss';
 
+
 @import '../blocks/second-section/second-section.scss';
 @import '../blocks/second-section/__title/second-section__title.scss';
 @import '../blocks/second-section/__image/second-section__image.scss';
 @import '../blocks/second-section/__figure/secon-section__figure.scss';
+
+
+@import '../blocks/form-section/form-section.scss';
+@import '../blocks/form-section/__info/form-section__info.scss';
+@import '../blocks/form-section/__title/form-section__title.scss';
+@import '../blocks/form-section/__text/form-section__text.scss';
+
+
+@import '../blocks/form/form.scss';
+@import '../blocks/form/__title/form__title.scss';
+@import '../blocks/form/__fieldset/form__fieldset.scss';
+
+
+@import '../blocks/input/input.scss';
+@import '../blocks/input/__label/input__label.scss';
+@import '../blocks/input/__field/input__field.scss';
+@import '../blocks/input/__error/input__error.scss';
+@import '../blocks/input/_type/_grid-step/input_type_grid-step.scss';
