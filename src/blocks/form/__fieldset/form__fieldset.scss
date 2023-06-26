@@ -1,0 +1,10 @@
+.form__fieldset {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 8px;
+  column-gap: 13px;
+  margin: 50px 0 155px;
+  padding: 0;
+  border: none;
+}

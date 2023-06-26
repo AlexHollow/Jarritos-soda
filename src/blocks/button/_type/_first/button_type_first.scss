@@ -1,4 +1,8 @@
 .button_type_first {
   color: rgba(30, 50, 100, 1);
   background-color: $logo-title-color;
+
+    &:hover {
+      border: 2px solid #1E3264;
+    }
 }
