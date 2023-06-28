@@ -1,0 +1,14 @@
+@keyframes pulsation {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(.8);
+  }
+}
+
+.pulsation {
+  animation: pulsation 1s alternate infinite;
+}
+
