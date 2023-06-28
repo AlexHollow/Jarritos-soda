@@ -1,0 +1,33 @@
+.footer__figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 100px;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+  background-color: rgba(153, 96, 246, 1);
+
+    &::after {
+      content: '';
+      position: absolute;
+      min-width: 230px;
+      min-height: 230px;
+      max-width: 230px;
+      max-height: 230px;
+      border-radius: 50%;
+      background-color: rgba(85, 81, 255, .35);
+    }
+
+    &::before {
+      content: '';
+      min-width: 152px;
+      min-height: 152px;
+      max-width: 152px;
+      max-height: 152px;
+      border-radius: 50%;
+      background-color: rgba(53, 48, 255, .3);
+    }
+}

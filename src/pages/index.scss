@@ -9,11 +9,15 @@
 @import '../blocks/rotation/rotation.scss';
 @import '../blocks/flicker/flicker.scss';
 @import '../blocks/roll/roll.scss';
+@import '../blocks/pulsation/pulsation.scss';
+@import '../blocks/pulsation/_type/_slow/pulsation_type_slow.scss';
 
 //Блоки, элементы и модификаторы
 @import '../blocks/page/page.scss';
 @import '../blocks/page/__header/page__header.scss';
 @import '../blocks/page/__title/page__title.scss';
+@import '../blocks/page/__footer/page__footer.scss';
+@import '../blocks/page/__title/_type/_footer/page__title_type_footer.scss';
 
 
 @import '../blocks/button/button.scss';
@@ -80,3 +84,13 @@
 @import '../blocks/input/__field/input__field.scss';
 @import '../blocks/input/__error/input__error.scss';
 @import '../blocks/input/_type/_grid-step/input_type_grid-step.scss';
+
+
+@import '../blocks/footer/footer.scss';
+@import '../blocks/footer/__figure/footer__figure.scss';
+@import '../blocks/footer/__container/footer__container.scss';
+@import '../blocks/footer/__list-title/footer__list-title.scss';
+@import '../blocks/footer/__list/footer__list.scss';
+@import '../blocks/footer/__list-item/footer__list-item.scss';
+@import '../blocks/footer/__link/footer__link.scss';
+@import '../blocks/footer/__copyright/footer__copyright.scss';
